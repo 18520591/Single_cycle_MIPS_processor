@@ -2,7 +2,7 @@
 * In this project, a 32-bit single-cycle MIPS processor is implemented in Verilog HDL. MIPS is an RISC processor, which is widely used by many universities in academic courses related to computer organization and architecture.
 * The Instruction Format and Instruction Set Architecture for the 32-bit single-cycle MIPS are as follows:
 ![image](https://user-images.githubusercontent.com/67142437/115213108-67ad2c00-a12b-11eb-8278-8cb1d28b3a10.png)
-
+![image](https://user-images.githubusercontent.com/67142437/115220298-924eb300-a132-11eb-931a-e6b0978c14c5.png)
 * Below is the description for instructions being implemented in Verilog:
   * Add: R[rd] = R[rs] + R[rt]
   * Subtract: R[rd] = R[rs] - R[rt]
