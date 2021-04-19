@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/67142437/115213108-67ad2c00-a12b-11eb-8278-8cb1d28b3a10.png)
 
 * Below is the description for instructions being implemented in Verilog:
-*   1.
-*   2.
+  * 1.
+  * 2.
 * Based on the provided instruction set, the data-path and control unit are designed and implemented.
 * Control unit design:
