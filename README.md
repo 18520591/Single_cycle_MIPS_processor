@@ -18,9 +18,9 @@
   * J: PC = JumpAddr
   * Jal: R[31] = PC + 4; PC = JumpAddr
   * SLTI: R[rt] = 1 if R[rs] < imm else 0
-  * SignExtImm = {16{immediate[15],imm}
-  * jumpAddr = {(PC+4)[31:28], {address[25:0], 2'b00}}
-  * BranchAddr = {SignExtImm[29:0], 2'b00}
+   * SignExtImm = {16{immediate[15],immmediate}
+   * jumpAddr = {(PC+4)[31:28], {address[25:0], 2'b00}}
+   * BranchAddr = {14{immediate[15]}, immediate, 2'b00}
 * Based on the provided instruction set, the data-path and control unit are designed and implemented.
 * Control unit design:
 ![image](https://user-images.githubusercontent.com/67142437/115217205-75fd4700-a12f-11eb-895c-b146b59c8407.png)
